@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     RAZORPAY_KEY_ID: str = "rzp_test_itflowmock12345"
     RAZORPAY_KEY_SECRET: str = "rzp_test_secret_itflow98765"
     
-    CLOUDINARY_CLOUD_NAME: str = "demo"
+    CLOUDINARY_CLOUD_NAME: str = ""
     CLOUDINARY_API_KEY: str = ""
     CLOUDINARY_API_SECRET: str = ""
     UPLOAD_DIR: str = "./uploads"
